@@ -6,6 +6,16 @@
     .color5 { #e6e0c5 }; HABANO 
 */
 
+body {
+    background-color: rgb(255, 255, 243);
+}
+
+.menu-app, 
+.pie-pagina{
+    background-color: #786d6f !important;
+    color: whitesmoke !important;
+}
+
 .btn-chisme {
     font-family: sans-serif !important;
     width: 100% !important;
@@ -21,4 +31,4 @@
     color: #e8e8e8 !important;
     border-color:#e6e0c5 !important;
     font-style: oblique !important;
-}
+};

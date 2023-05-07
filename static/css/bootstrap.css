@@ -12111,3 +12111,24 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+.menu-app{
+  background-color: #3e3742 !important;
+}
+
+.btn-chisme {
+  font-family: sans-serif !important;
+  width: 100% !important;
+  font-size: 20px !important;
+  background-color: #e6e0c5 !important;
+  color: #3e3742 !important;
+  border-color: #825e65 !important;
+  font-weight: bold !important;
+};
+
+.btn-chisme:hover {
+  background-color:#825e65 !important;
+  color: #e8e8e8 !important;
+  border-color:#e6e0c5 !important;
+  font-style: oblique !important;
+};
