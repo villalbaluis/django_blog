@@ -1,0 +1,24 @@
+/* 
+    .color1 { #3e3742 } CAFE OSCURO;
+    .color2 { #825e65 } CAFE;
+    .color3 { #cc8383 } SAPOTE;
+    .color4 { #ebc4a9 } PIEL;
+    .color5 { #e6e0c5 }; HABANO 
+*/
+
+.btn-chisme {
+    font-family: sans-serif !important;
+    width: 100% !important;
+    font-size: 20px !important;
+    background-color: #e6e0c5 !important;
+    color: #3e3742 !important;
+    border-color: #825e65 !important;
+    font-weight: bold !important;
+};
+
+.btn-chisme:hover {
+    background-color:#825e65 !important;
+    color: #e8e8e8 !important;
+    border-color:#e6e0c5 !important;
+    font-style: oblique !important;
+}

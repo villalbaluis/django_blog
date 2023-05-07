@@ -1,1 +1,33 @@
-<h2>Ey que dice gentecita</h2>
+{% extends 'main.html'%}
+
+{% block content %}
+
+
+<div class="container mt-5">
+    <div class="row row-cols-auto">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">¡Gambito de dama!</h5>
+                    <p class="card-text text-break">
+                        ¿Será que se grabará la segunda temporada de "Gambito de dama"
+                        aquí una entrevista con nuestra amada argentina, la actriz
+                        Annya Taylor Joy, que nos adelantará un poco sobre lo que ha venido
+                        sucediendo con este éxitoso proyecto
+                    </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Gambito de dama</li>
+                    <li class="list-group-item">Netflix</li>
+                    <li class="list-group-item">Actrices</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="btn btn-primary btn-chisme">¡Cuentame todo!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock content %}
